@@ -56,7 +56,7 @@ const Hero = () => {
               src={profilepic}
               alt="profile"
               whileHover={{ scale: 1.05 }}
-              className="rounded-full shadow-lg h-120"
+              className="rounded-full shadow-lg h-100"
             />
           </div>
         </motion.div>
