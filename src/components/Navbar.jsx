@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/piyushvermalogo.png';
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
+import { TbFileCv } from "react-icons/tb";
 import { motion } from 'framer-motion';
 
 const Navbar = () => {
@@ -32,6 +33,13 @@ const Navbar = () => {
             whileTap={{ scale: 0.9 }}
           >
             <a href="https://github.com/piyush-777-debug"><FaGithub /></a>
+          </motion.div>
+
+          <motion.div
+            whileHover={{ scale: 1.3, rotate: 10 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <a href="https://drive.google.com/file/d/1tO0VAFaRsxPfNXmjAXD5XuoXtAyQpyC9/view?usp=sharing"><TbFileCv /></a>
           </motion.div>
 
           {/* <motion.div
